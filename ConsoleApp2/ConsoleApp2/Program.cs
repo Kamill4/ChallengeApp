@@ -1,5 +1,6 @@
 ﻿//liczby całkowite
 
+using System.ComponentModel.Design;
 using System.Xml;
 
 int myAge = 15;
@@ -47,4 +48,27 @@ if (number1 > number2)
 else
 {
     Console.WriteLine("Jestem w lini 10");
+}
+//&& i
+// || lub
+//! negacja
+
+var Name1 = "Kamil";
+var Age1 = 21;
+if (Name1 == "Kamul" || Age1 < 21)
+{
+    Console.WriteLine(11111);
+}
+else
+{
+    Console.WriteLine(22222);
+}
+
+if (!(Age1 < 30))
+{
+    Console.WriteLine(11111);
+}
+else
+{
+    Console.WriteLine(22222);
 }
