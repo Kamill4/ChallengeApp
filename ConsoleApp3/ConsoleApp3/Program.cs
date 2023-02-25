@@ -4,18 +4,18 @@ using System.Xml.Linq;
 
 var myAge = 22;
 var myName = "Kamil";
-var Men = true;
+var male = true;
 
 
 if (myName == "Kamil" || myAge == 22)
 {
-    Console.WriteLine(myName + " lat" + myAge + "Płeć" + Men);
+    Console.WriteLine(myName + " lat" + myAge + "Płeć" + male);
 }
-else if (myAge < 13) 
+else if (myAge < 13)
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
-        }
-else if (Men == false )
+}
+else if (male == false)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
